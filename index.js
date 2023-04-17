@@ -1,10 +1,15 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  const palindrome = word.split("").reverse().join("");
+   const checkPalindrome=(palindrome===word) ? true : false;
+   return checkPalindrome;
 }
-
-/* 
-  Add your pseudocode here
-*/
+const palindrome=word.reverse
+  if (palindrome===word){
+    return true
+  }
+  else{
+    return false
+  }
 
 /*
   Add written explanation of your solution here
@@ -14,7 +19,13 @@ function isPalindrome(word) {
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
-  console.log("=>", isPalindrome("racecar"));
+  console.log("=>", isPalindrome("racecar"));const palindrome=word.reverse
+  if (palindrome===word){
+    return true
+  }
+  else{
+    return false
+  }
 
   console.log("");
 
